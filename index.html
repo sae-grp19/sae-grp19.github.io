@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/279a7b8cf7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index.css">
+    <title>SAÉ Groupe 20</title>
+</head>
+<body>
+    <header>
+        <h1>SAÉ Groupe 20</h1>
+        <ul onload="shortName()">
+            <li id="gury" title="Toinot GURY">Toinot GURY</li>
+            <li id="jeandenant" title="Thomas JEANDENANT">Thomas JEANDENANT</li>
+            <li id="gerovic" title="Elmir GEROVIC">Elmir GEROVIC</li>
+            <li id="bouvais" title="Thomas BOUVAIS">Thomas BOUVAIS</li>
+            <li id="joly" title="Noam JOLY-GIRODS">Noam JOLY-GIRODS</li>
+        </ul>
+        <script type="text/javascript">
+            function shortName () {
+                if (window.innerWidth < 950) {
+                    document.getElementById('gury').innerText = 'T';
+                    document.getElementById('jeandenant').innerText = 'T';
+                    document.getElementById('gerovic').innerText = 'E';
+                    document.getElementById('bouvais').innerText = 'T';
+                    document.getElementById('joly').innerText = 'N';
+                }
+            }
+            setInterval(shortName, 500)
+        </script>
+    </header>
+    <main>
+        <!--SAÉ S1. 05-06-->
+        <div class="sae-status"><h2>En cours</h2><span id="red"></span></div>
+        <ul>
+            <li>SAÉ S1. 05-06 <i class="fa-solid fa-arrow-up-right-from-square" onclick="alert('Lien désactivé')"></i></i></li>
+        </ul>
+        <div class="sae-status"><h2>Terminées</h2><span id="green"></span></div>
+    </main>
+    <footer>Powered by DuoCloud</footer>
+</body>
+</html>
