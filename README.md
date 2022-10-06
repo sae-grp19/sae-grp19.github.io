@@ -1,4 +1,4 @@
-# SAÉ Groupe 19 (D1)
+# SAÉ 05-06 Groupe 19 (D1)
 ## **Membres du groupe :**
 - Toinot GURY :star:
 - Thomas JEANDENANT
@@ -18,7 +18,3 @@ toinot.gury@edu.univ-fcomte.fr
 ![image](https://user-images.githubusercontent.com/113291884/194273716-d46afdd1-27c9-4e95-80dc-6aa9c4a09579.png)
 
 ![image](https://user-images.githubusercontent.com/113291884/194273758-0d9cdc80-df48-4ec6-8653-4140c9e4f999.png)
-
-## En cours
-- **SAÉ S1. 05-06**
-
