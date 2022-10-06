@@ -4,46 +4,105 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="shortcut icon" href="media/favicon.ico" type="image/x-icon">
     <script src="https://kit.fontawesome.com/279a7b8cf7.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="index.css">
-   
-    <title>SAÉ Groupe 19</title>
-    
+    <title>Focus on DailyMotion</title>
 </head>
 <body>
     <header>
-        <h1>SAÉ Groupe 19</h1>
-        <ul onload="shortName()">
-            <li id="gury" title="Toinot GURY">Toinot GURY</li>
-            <li id="jeandenant" title="Thomas JEANDENANT">Thomas JEANDENANT</li>
-            <li id="gerovic" title="Elmir GEROVIC">Elmir GEROVIC</li>
-            <li id="bouvais" title="Thomas BOUVAIS">Thomas BOUVAIS</li>
-            <li id="joly" title="Noam JOLY-GIRODS">Noam JOLY-GIRODS</li>
-        </ul>
-        <script type="text/javascript">
-            function shortName () {
-                if (window.innerWidth < 950) {
-                    document.getElementById('gury').innerText = 'T';
-                    document.getElementById('jeandenant').innerText = 'T';
-                    document.getElementById('gerovic').innerText = 'E';
-                    document.getElementById('bouvais').innerText = 'T';
-                    document.getElementById('joly').innerText = 'N';
-                }
-            }
-            setInterval(shortName, 500)
-        </script>
+        <nav id="nav">
+            <img src="media/logoDailymotion.png" alt="Logo de DailyMotion">
+            <ul>
+                <li><a href="" style="font-weight: bold;">Accueil</a></li>
+                <li><a href="">Page 1</a></li>
+                <li><a href="">Page 2</a></li>
+                <li><a href="">Page 3</a></li>
+                <li><a href="">Page 4</a></li>
+            </ul>
+            <span>
+                <i class="fa-solid fa-angle-right"></i>
+            </span>
+        </nav>
+        <div class="navigationOnPage">
+            <a href="" id="upSection" style="opacity: 0; pointer-events: none;"><i class="fa-solid fa-angle-up"></i></a>
+            <a href="#serveur" id="downSection"><i class="fa-solid fa-angle-down"></i></a>
+        </div>
     </header>
     <main>
-        <!--SAÉ S1. 05-06-->
-        <div class="sae-status"><h2>En cours</h2><span id="red"></span></div>
-        <ul>
-            <li>SAÉ S1. 05-06 <i class="fa-solid fa-arrow-up-right-from-square" onclick="document.location.href='/dailymotion/'; "></i></i></li>
-        </ul>
-        <div class="sae-status"><h2>Terminées</h2><span id="green"></span></div>
+        <section id="dailymotion">
+            <div class="container">
+                <h2>Lorem ipsum</h2>
+                <a href="#">Voir l'article</a>
+            </div>
+        </section>
+        <section id="serveur">
+            <div class="container">
+                <h2>Lorem ipsum</h2>
+                <a href="#">Voir l'article</a>
+            </div>
+        </section>
+        <section id="voiture">
+            <div class="container">
+                <h2>Lorem ipsum</h2>
+                <a href="#">Voir l'article</a>
+            </div>
+        </section>
     </main>
-    <footer>Powered by DuoCloud</footer>
+    <script>
+        let dataNavigationOnPage = [
+            ['dailymotion', '#000'],
+            ['serveur', '#fff'],
+            ['voiture', '#000']
+        ];
+        document.getElementById('nav').addEventListener('mouseenter', (event) => {
+            document.getElementById('nav').style.width = '90%';
+        });
+        document.getElementById('nav').addEventListener('mouseleave', (event) => {
+            if (window.scrollY != 0) {
+                document.getElementById('nav').style.width = '120px';
+            }
+        });
+        function navigationOnPage () {
+            if (window.scrollY == 0) {
+                document.getElementById('nav').style.width = '90%';
+            } else {
+                document.getElementById('nav').style.width = '120px';
+            }
+            let displaySection = [0, -1];
+            for (let index = 0; index < dataNavigationOnPage.length; index++) {
+                var positionSection = ((document.getElementById(dataNavigationOnPage[index][0]).getBoundingClientRect().top)*-1)+(window.innerHeight/2);
+                if ((positionSection >= 0 && positionSection < displaySection[1]) || displaySection[1] == -1) {
+                    displaySection[0] = index;
+                    displaySection[1] = positionSection;
+                }
+            }
+            if (displaySection[0] == 0) {
+                document.getElementById('upSection').style.opacity = '0';
+                document.getElementById('upSection').style.pointerEvents = 'none';
+                document.getElementById('downSection').style.opacity = '100%';
+                document.getElementById('downSection').style.pointerEvents = 'all';
+                document.getElementById('upSection').href = '#';
+                document.getElementById('downSection').href = '#' + dataNavigationOnPage[displaySection[0]+1][0];
+            } else if (displaySection[0] == dataNavigationOnPage.length - 1) {
+                document.getElementById('downSection').style.opacity = '0';
+                document.getElementById('downSection').style.pointerEvents = 'none';
+                document.getElementById('upSection').style.opacity = '100%';
+                document.getElementById('upSection').style.pointerEvents = 'all';
+                document.getElementById('downSection').href = '#';
+                document.getElementById('upSection').href = '#' + dataNavigationOnPage[displaySection[0]-1][0];
+            } else {
+                document.getElementById('upSection').style.opacity = '100%';
+                document.getElementById('upSection').style.pointerEvents = 'all';
+                document.getElementById('downSection').style.opacity = '100%';
+                document.getElementById('downSection').style.pointerEvents = 'all';
+                document.getElementById('upSection').href = '#' + dataNavigationOnPage[displaySection[0]-1][0];
+                document.getElementById('downSection').href = '#' + dataNavigationOnPage[displaySection[0]+1][0];
+            }
+            document.getElementById('upSection').style.color = dataNavigationOnPage[displaySection[0]][1];
+            document.getElementById('downSection').style.color = dataNavigationOnPage[displaySection[0]][1];
+        }
+        window.addEventListener('scroll', navigationOnPage);
+    </script>
 </body>
 </html>
