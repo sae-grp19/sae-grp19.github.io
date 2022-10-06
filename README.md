@@ -7,7 +7,7 @@
 - Noam JOLY-GIRODS
 
 ## Email du référent du groupe
-toinoit.gury@edu.univ-fcomte.fr
+toinot.gury@edu.univ-fcomte.fr
 
 ## Ecran de zoning et wireframe définitifs
 
