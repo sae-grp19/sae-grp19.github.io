@@ -6,6 +6,8 @@ html, body {
     padding: 0;
     font-family: 'Montserrat', sans-serif;
     scroll-behavior: smooth;
+    -ms-overflow-style: none;
+    overflow: -moz-scrollbars-none;
 }
 html::-webkit-scrollbar { width: 0 !important }
 header nav {
