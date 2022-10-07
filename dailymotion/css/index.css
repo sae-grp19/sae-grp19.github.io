@@ -88,6 +88,7 @@ html::-webkit-scrollbar { width: 0 !important }
     #dailymotion .container h2 {
         display: flex;
         flex-direction: column;
+        cursor: default;
     }
     #dailymotion .container img {
         height: 40px;
