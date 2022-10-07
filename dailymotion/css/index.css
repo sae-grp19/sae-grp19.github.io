@@ -10,9 +10,6 @@ html, body {
     overflow: -moz-scrollbars-none;
 }
 html::-webkit-scrollbar { width: 0 !important }
-@media only screen and (min-width : 321px) {
-    /* Styles pour cette Media Queries */
-}
 @media only screen and (min-width : 1224px){
     header .nav {
         width: 90%;
@@ -67,6 +64,9 @@ html::-webkit-scrollbar { width: 0 !important }
         height: 60px;
         padding: 2px 0 0 15px;
     }
+}
+@media only screen and (min-width : 321px) {
+    /* Styles pour cette Media Queries */
 }
 header span {
     width: 60px;
