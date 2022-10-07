@@ -112,9 +112,22 @@ main a {
 #dailymotion {
     background-image: url('../media/dailymotion_cover.jfif');
 }
+#dailymotion .container h2 {
+    display: flex;
+}
+#dailymotion .container img {
+    height: 60px;
+    padding: 2px 0 0 15px;
+}
 #histoire {
     background-image: url('../media/histoire_cover.png');
 }
-#serveur {
-    background-image: url('../media/serveur.webp');
+#audience {
+    background-image: url('../media/audience_cover.jpg');
+}
+#createurs {
+    background-image: url('../media/createurs_cover.jpg');
+}
+#services {
+    background-image: url('../media/services_cover.webp');
 }
