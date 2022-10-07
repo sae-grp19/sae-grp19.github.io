@@ -10,44 +10,63 @@ html, body {
     overflow: -moz-scrollbars-none;
 }
 html::-webkit-scrollbar { width: 0 !important }
-header nav {
-    width: 90%;
-    height: 60px;
-    display: flex;
-    border-radius: 30px;
-    margin: 20px 5%;
-    background-color: rgba(175, 175, 175, 0.5);
-    backdrop-filter: blur(5px);
-    position: fixed;
-    z-index: 2000;
-    transition: width 0.8s ease-in-out;
+@media only screen and (min-width : 321px) {
+    /* Styles pour cette Media Queries */
 }
-header nav img {
-    display: block;
-    height: 50px;
-    width: 50px;
-    border-radius: 25px;
-    margin: 5px;
-}
-header nav ul {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 60px;
-    width: calc(100% - 120px);
-    padding-left: 0;
-    margin: 0;
-    list-style: none;
-    overflow: hidden;
-}
-header nav ul li {
-    font-size: 20px;
-    padding: 0 20px;
-    white-space: nowrap;
-}
-header nav ul li a {
-    color: #fff;
-    text-decoration: none;
+@media only screen and (min-width : 1224px){
+    header .nav {
+        width: 90%;
+        height: 60px;
+        display: flex;
+        border-radius: 30px;
+        margin: 20px 5%;
+        background-color: rgba(175, 175, 175, 0.5);
+        backdrop-filter: blur(5px);
+        position: fixed;
+        z-index: 2000;
+        transition: width 0.8s ease-in-out;
+    }
+    header .nav img {
+        display: block;
+        height: 50px;
+        width: 50px;
+        border-radius: 25px;
+        margin: 5px;
+    }
+    header .nav ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 60px;
+        width: calc(100% - 120px);
+        padding-left: 0;
+        margin: 0;
+        list-style: none;
+        overflow: hidden;
+    }
+    header .nav ul li {
+        font-size: 20px;
+        padding: 0 20px;
+        white-space: nowrap;
+    }
+    header .nav ul li a {
+        color: #fff;
+        text-decoration: none;
+    }
+    main h2 {
+        font-size: 60px;
+        font-weight: bold;
+        margin: 30px 0;
+        line-height: 60px;
+        text-align: center;
+    }
+    #dailymotion .container h2 {
+        display: flex;
+    }
+    #dailymotion .container img {
+        height: 60px;
+        padding: 2px 0 0 15px;
+    }
 }
 header span {
     width: 60px;
@@ -93,13 +112,6 @@ main section .container {
     flex-direction: column;
     justify-content: center;
 }
-main h2 {
-    font-size: 60px;
-    font-weight: bold;
-    margin: 30px 0;
-    line-height: 60px;
-    text-align: center;
-}
 main a {
     font-size: 20px;
     line-height: 20px;
@@ -111,13 +123,6 @@ main a {
 }
 #dailymotion {
     background-image: url('../media/dailymotion_cover.webp');
-}
-#dailymotion .container h2 {
-    display: flex;
-}
-#dailymotion .container img {
-    height: 60px;
-    padding: 2px 0 0 15px;
 }
 #histoire {
     background-image: url('../media/histoire_cover.webp');
