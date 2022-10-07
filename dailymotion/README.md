@@ -19,5 +19,5 @@ toinot.gury@edu.univ-fcomte.fr
 
 ![image](https://user-images.githubusercontent.com/113291884/194273758-0d9cdc80-df48-4ec6-8653-4140c9e4f999.png)
 
-### Zoning:
+### Page d'acceuil:
 
