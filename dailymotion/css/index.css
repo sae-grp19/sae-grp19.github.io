@@ -112,9 +112,9 @@ main a {
 #dailymotion {
     background-image: url('../media/dailymotion_cover.jpg');
 }
-#serveur {
-    background-image: url('../media/serveur.webp');
-}
 #histoire {
     background-image: url('../media/histoire_cover.png');
+}
+#serveur {
+    background-image: url('../media/serveur.webp');
 }
