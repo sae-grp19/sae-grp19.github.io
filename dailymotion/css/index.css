@@ -10,10 +10,91 @@ html, body {
     overflow: -moz-scrollbars-none;
 }
 html::-webkit-scrollbar { width: 0 !important }
-@media only screen and (min-width : 321px) {
-    /* Styles pour cette Media Queries */
+@media only screen {
+    header #nav {
+        display: hidden;
+    }
+    header #mobileNav {
+        width: 90%;
+        height: 60px;
+        border-radius: 30px;
+        margin: 20px 5%;
+        background-color: rgba(175, 175, 175, 0.5);
+        backdrop-filter: blur(5px);
+        position: fixed;
+        z-index: 2000;
+        transition: height 0.8s ease-in-out;
+        overflow: hidden;
+    }
+    header #mobileNav span {
+        width: 100%;
+        height: 60px;
+        border-radius: 30px;
+    }
+    header #mobileNav span img {
+        display: block;
+        height: 50px;
+        width: 50px;
+        border-radius: 25px;
+        margin: 5px;
+        float: left;
+    }
+    header #mobileNav i {
+        width: calc(100% - 60px);
+        height: 60px;
+        border-radius: 30px;
+        float: right;
+        line-height: 60px;
+        text-align: center;
+        transition: transform 0.4s;
+    }
+    header #mobileNav ul {
+        height: auto;
+        width: 100%;
+        border-radius: 30px;
+        padding-left: 0;
+        margin: 0;
+        list-style: none;
+    }
+    header #mobileNav ul li {
+        height: 50px;
+        width: calc(100% - 10px);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10px 5px;
+        border-radius: 30px;
+        line-height: 60px;
+        text-align: center;
+        transition: background 0.4s;
+    }
+    header #mobileNav ul li:hover {
+        background-color: rgba(75, 75, 75, 0.5);
+    }
+    header #mobileNav ul a {
+        line-height: 50px;
+        text-decoration: none;
+        color: #fff;
+    }
+    main h2 {
+        font-size: 30px;
+        font-weight: bold;
+        margin: 30px 0;
+        line-height: 30px;
+        text-align: center;
+    }
+    #dailymotion .container h2 {
+        display: flex;
+        flex-direction: column;
+    }
+    #dailymotion .container img {
+        height: 30px;
+    }
 }
-@media only screen and (min-width : 1224px){
+@media only screen and (min-width : 1080px){
+    header #mobileNav {
+        display: hidden;
+    }
     header #nav {
         width: 90%;
         height: 60px;
