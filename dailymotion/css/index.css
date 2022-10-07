@@ -70,7 +70,7 @@ header .navigationOnPage {
 header .navigationOnPage a {
     font-size: 25px;
     margin: 5px 0;
-    color: #000;
+    color: #fff;
     transition: color 0.4s;
     transition: opacity 0.4S;
 }
