@@ -42,7 +42,7 @@ html::-webkit-scrollbar { width: 0 !important }
     header #mobileNav i {
         width: calc(100% - 120px);
         height: 60px;
-        padding-right: 60px;
+        margin-right: 60px;
         border-radius: 30px;
         float: right;
         line-height: 60px;
