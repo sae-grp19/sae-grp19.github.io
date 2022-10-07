@@ -10,7 +10,7 @@ html, body {
     overflow: -moz-scrollbars-none;
 }
 html::-webkit-scrollbar { width: 0 !important }
-@media only screen {
+@media only screen and (max-width : 1080px) {
     header #nav {
         display: hidden;
     }
@@ -91,7 +91,7 @@ html::-webkit-scrollbar { width: 0 !important }
         height: 30px;
     }
 }
-@media only screen and (min-width : 1080px){
+@media only screen and (min-width : 1080px) {
     header #mobileNav {
         display: hidden;
     }
