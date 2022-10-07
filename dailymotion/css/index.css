@@ -96,7 +96,7 @@ main section .container {
 main h2 {
     font-size: 60px;
     font-weight: bold;
-    margin: 20px 0;
+    margin: 30px 0;
     line-height: 60px;
     text-align: center;
 }
@@ -110,7 +110,7 @@ main a {
     text-decoration: none;
 }
 #dailymotion {
-    background-image: url('../media/dailymotion_cover.jfif');
+    background-image: url('../media/dailymotion_cover.webp');
 }
 #dailymotion .container h2 {
     display: flex;
@@ -120,13 +120,13 @@ main a {
     padding: 2px 0 0 15px;
 }
 #histoire {
-    background-image: url('../media/histoire_cover.png');
+    background-image: url('../media/histoire_cover.webp');
 }
 #audience {
-    background-image: url('../media/audience_cover.jpg');
+    background-image: url('../media/audience_cover.webp');
 }
 #createurs {
-    background-image: url('../media/createurs_cover.jpg');
+    background-image: url('../media/createurs_cover.webp');
 }
 #services {
     background-image: url('../media/services_cover.webp');
