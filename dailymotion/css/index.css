@@ -78,9 +78,11 @@ html::-webkit-scrollbar { width: 0 !important }
         color: #fff;
     }
     main h2 {
+        max-width: 80vw;
         font-size: 40px;
         font-weight: bold;
         margin: 40px 0;
+        margin-left: 10vw;
         line-height: 40px;
         text-align: center;
     }
@@ -90,6 +92,10 @@ html::-webkit-scrollbar { width: 0 !important }
     }
     #dailymotion .container img {
         height: 40px;
+    }
+    #dailymotion .container p {
+        max-width: 80vw;
+        margin-left: 10vw;
     }
 }
 @media only screen and (min-width : 1080px) {
@@ -136,9 +142,11 @@ html::-webkit-scrollbar { width: 0 !important }
         text-decoration: none;
     }
     main h2 {
+        max-width: 80vw;
         font-size: 60px;
         font-weight: bold;
         margin: 30px 0;
+        margin-left: 10vw;
         line-height: 60px;
         text-align: center;
     }
@@ -148,6 +156,10 @@ html::-webkit-scrollbar { width: 0 !important }
     #dailymotion .container img {
         height: 60px;
         padding: 2px 0 0 15px;
+    }
+    #dailymotion .container p {
+        max-width: 80vw;
+        margin-left: 10vw;
     }
 }
 header span {
