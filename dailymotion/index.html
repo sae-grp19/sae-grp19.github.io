@@ -23,6 +23,42 @@
                 <i class="fa-solid fa-angle-right"></i>
             </span>
         </nav>
+        <script type="text/javascript">
+            document.getElementById('nav').addEventListener('mouseenter', (event) => {
+                document.getElementById('nav').style.width = '90%';
+            });
+            document.getElementById('nav').addEventListener('mouseleave', (event) => {
+                if (window.scrollY != 0) {
+                    document.getElementById('nav').style.width = '120px';
+                }
+            });
+        </script>
+        <nav id="mobileNav">
+            <span>
+                <img src="media/oldlogo_dailymotion.webp" alt="Ancien logo de DailyMotion">
+                <i id="angle" class="fa-solid fa-angle-down"></i>
+            </span>
+            <ul>
+                <li style="margin-top: 5px;"><a href="">L'histoire</a></li>
+                <li><a href="">L'audience</a></li>
+                <li><a href="">Les créateurs</a></li>
+                <li style="margin-bottom: 5px;"><a href="">Les autres services</a></li>
+            </ul>
+        </nav>
+        <script type="text/javascript">
+            var etat = false;
+            document.getElementById('mobileNav').addEventListener('click', (event) => {
+                if (etat == false) {
+                    etat = true;
+                    document.getElementById('mobileNav').style.height = '300px';
+                    document.getElementById('angle').style.transform = 'rotate(-180deg)';
+                } else {
+                    etat = false;
+                    document.getElementById('mobileNav').style.height = '60px';
+                    document.getElementById('angle').style.transform = 'rotate(-0deg)';
+                }
+            });
+        </script>
         <div class="navigationOnPage">
             <a href="" id="upSection" style="opacity: 0; pointer-events: none;"><i class="fa-solid fa-angle-up"></i></a>
             <a href="#histoire" id="downSection"><i class="fa-solid fa-angle-down"></i></a>
@@ -68,14 +104,6 @@
             ['createurs', '#fff'],
             ['services', '#fff']
         ];
-        document.getElementById('nav').addEventListener('mouseenter', (event) => {
-            document.getElementById('nav').style.width = '90%';
-        });
-        document.getElementById('nav').addEventListener('mouseleave', (event) => {
-            if (window.scrollY != 0) {
-                document.getElementById('nav').style.width = '120px';
-            }
-        });
         function navigationOnPage () {
             if (window.scrollY == 0) {
                 document.getElementById('nav').style.width = '90%';
