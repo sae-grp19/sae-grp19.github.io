@@ -40,8 +40,9 @@ html::-webkit-scrollbar { width: 0 !important }
         float: left;
     }
     header #mobileNav i {
-        width: calc(100% - 60px);
+        width: calc(100% - 120px);
         height: 60px;
+        padding-right: 60px;
         border-radius: 30px;
         float: right;
         line-height: 60px;
@@ -77,10 +78,10 @@ html::-webkit-scrollbar { width: 0 !important }
         color: #fff;
     }
     main h2 {
-        font-size: 30px;
+        font-size: 40px;
         font-weight: bold;
-        margin: 30px 0;
-        line-height: 30px;
+        margin: 40px 0;
+        line-height: 40px;
         text-align: center;
     }
     #dailymotion .container h2 {
@@ -88,7 +89,7 @@ html::-webkit-scrollbar { width: 0 !important }
         flex-direction: column;
     }
     #dailymotion .container img {
-        height: 30px;
+        height: 40px;
     }
 }
 @media only screen and (min-width : 1080px) {
