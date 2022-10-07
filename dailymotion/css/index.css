@@ -12,7 +12,7 @@ html, body {
 html::-webkit-scrollbar { width: 0 !important }
 @media only screen and (max-width : 1080px) {
     header #nav {
-        display: hidden;
+        display: none;
     }
     header #mobileNav {
         width: 90%;
@@ -93,7 +93,7 @@ html::-webkit-scrollbar { width: 0 !important }
 }
 @media only screen and (min-width : 1080px) {
     header #mobileNav {
-        display: hidden;
+        display: none;
     }
     header #nav {
         width: 90%;
