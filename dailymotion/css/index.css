@@ -232,6 +232,6 @@ main a {
 #services {
     background-image: url('../media/services_cover.webp');
 }
-#services {
+#footer {
     background-color: linear-gradient(to bottom right, blue, pink);
 }
