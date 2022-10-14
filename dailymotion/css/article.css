@@ -74,6 +74,9 @@ html, body {
         line-height: 50px;
         text-decoration: none;
         color: #fff;
+        width: 100%;
+        height: 100%;
+        border-radius: 30px;
     }
     footer .all-duocloud {
         flex-direction: column;
