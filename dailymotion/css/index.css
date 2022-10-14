@@ -233,5 +233,23 @@ main a {
     background-image: url('../media/services_cover.webp');
 }
 #footer {
-    background-color: linear-gradient(to bottom right, blue, pink);
+    background: linear-gradient(to bottom right, #212F3C, #3498DB);
+}
+#footer h3 a {
+    font-size: inherit;
+    line-height: inherit;
+    padding: inherit;
+    border-radius: inherit;
+    background-color: inherit;
+    color: #fff;
+    text-decoration: none;
+}
+#footer .legal-data a {
+    font-size: inherit;
+    line-height: inherit;
+    padding: inherit;
+    border-radius: inherit;
+    background-color: inherit;
+    color: #fff;
+    text-decoration: none;
 }
