@@ -14,10 +14,10 @@
         <nav id="nav">
             <img src="media/oldlogo_dailymotion.webp" alt="Ancien logo de DailyMotion">
             <ul>
-                <li><a href="">L'histoire</a></li>
-                <li><a href="">L'audience</a></li>
-                <li><a href="">Les créateurs</a></li>
-                <li><a href="">Les autres services</a></li>
+                <li><a href="histoire">L'histoire</a></li>
+                <li><a href="audience">L'audience</a></li>
+                <li><a href="createurs">Les créateurs</a></li>
+                <li><a href="autres-services">Les autres services</a></li>
             </ul>
             <span>
                 <i class="fa-solid fa-angle-right"></i>
@@ -39,10 +39,10 @@
                 <i id="angle" class="fa-solid fa-angle-down"></i>
             </span>
             <ul>
-                <li style="margin-top: 5px;"><a href="">L'histoire</a></li>
-                <li><a href="">L'audience</a></li>
-                <li><a href="">Les créateurs</a></li>
-                <li style="margin-bottom: 5px;"><a href="">Les autres services</a></li>
+                <li style="margin-top: 5px;"><a href="histoire">L'histoire</a></li>
+                <li><a href="audience">L'audience</a></li>
+                <li><a href="createurs">Les créateurs</a></li>
+                <li style="margin-bottom: 5px;"><a href="autres-services">Les autres services</a></li>
             </ul>
         </nav>
         <script>
@@ -92,9 +92,14 @@
         <section id="services">
             <div class="container">
                 <h2>Les autres services</h2>
-                <a href="services">Voir l'article</a>
+                <a href="autres-services">Voir l'article</a>
             </div>
         </section>
+        <footer id="footer">
+            <div class="container">
+                <h2>En cours...</h2>
+            </div>
+        </footer>
     </main>
     <script>
         let dataNavigationOnPage = [
@@ -102,7 +107,8 @@
             ['histoire', '#000'],
             ['audience', '#fff'],
             ['createurs', '#fff'],
-            ['services', '#fff']
+            ['services', '#fff'],
+            ['footer', '#fff']
         ];
         function navigationOnPage () {
             if (window.scrollY == 0) {

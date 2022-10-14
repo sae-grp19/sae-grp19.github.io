@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/article.css">
+    <link rel="stylesheet" href="css/audience.css">
+    <link rel="shortcut icon" href="media/favicon.ico" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/279a7b8cf7.js" crossorigin="anonymous"></script>
+    <title>L'audience - Focus on DailyMotion</title>
+</head>
+<body>
+    <header>
+        <nav id="nav">
+            <img src="media/oldlogo_dailymotion.webp" alt="Ancien logo de DailyMotion">
+            <ul>
+                <li><a href="/dailymotion/">Accueil</a></li>
+                <li><a href="histoire" style="font-weight: bold; color: #03b5d0;">L'histoire</a></li>
+                <li><a href="audience">L'audience</a></li>
+                <li><a href="createurs">Les créateurs</a></li>
+                <li><a href="autres-services">Les autres services</a></li>
+            </ul>
+            <span>
+            </span>
+        </nav>
+        <nav id="mobileNav">
+            <span>
+                <img src="media/oldlogo_dailymotion.webp" alt="Ancien logo de DailyMotion">
+                <i id="angle" class="fa-solid fa-angle-down"></i>
+            </span>
+            <ul>
+                <li style="margin-top: 5px;"><a href="/dailymotion/">Accueil</a></li>
+                <li><a href="histoire">L'histoire</a></li>
+                <li><a href="audience">L'audience</a></li>
+                <li><a href="createurs">Les créateurs</a></li>
+                <li style="margin-bottom: 5px;"><a href="autres-services">Les autres services</a></li>
+            </ul>
+        </nav>
+        <script>
+            var etat = false;
+            document.getElementById('mobileNav').addEventListener('click', (event) => {
+                if (etat == false) {
+                    etat = true;
+                    document.getElementById('mobileNav').style.height = '300px';
+                    document.getElementById('angle').style.transform = 'rotate(-180deg)';
+                } else {
+                    etat = false;
+                    document.getElementById('mobileNav').style.height = '60px';
+                    document.getElementById('angle').style.transform = 'rotate(-0deg)';
+                }
+            });
+        </script>
+    </header>
+    <main>
+        <!-- Carte blanche à toi -->
+    </main>
+    <footer>
+        <div class="all-duocloud">
+            <div class="navsec">
+                <h3>Découvrir</h3>
+                <a href="https://dailymotion.com">Dailymotion</a>
+                <a href="https://about.dailymotion.com">Dailymotion About</a>
+                <a href="https://www.societe.com/societe/dailymotion-483487112.html">Informations administratives</a>
+            </div>	
+            <div class="navsec">
+                <h3>Suivre Dailymotion</h3>
+                <a href="https://twitter.com/Dailymotion_FR">Twitter</a>
+                <a href="https://www.facebook.com/DailymotionFrance">Facebook</a>
+                <a href="https://www.instagram.com/dailymotion">Instagram</a>
+                <a href="https://www.linkedin.com/company/dailymotion">Linkedin</a>
+                <a href="https://medium.com/dailymotion">Medium</a>
+            </div>
+            <div class="navsec">
+                <h3>Les articles</h3>
+                <a href="histoire">L'histoires</a>
+                <a href="audience">L'audience</a>
+                <a href="createurs">Les créateurs</a>
+                <a href="autres-services">Les autres services</a>
+            </div>		
+        </div>
+        <div class="legal-data">
+            <div class="data-links"><a href="mailto:toinot.gury@edu.univ-fcomte.fr">Contacter le référent du groupe</a></div>
+            <div class="data-links"><a href="https://github.com/sae-grp19/sae-grp19.github.io">GitHub</a></div>
+            <div class="data-links"><a href="imprint">Mentions légales</a></div>
+        </div>
+    </footer>
+</body>
+</html>
