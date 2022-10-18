@@ -68,7 +68,7 @@ html, body {
         transition: background 0.4s;
     }
     header #mobileNav ul li:hover {
-        background-color: rgba(75, 75, 75, 0.5);
+        background-color: rgba(125, 125, 125, 0.5);
     }
     header #mobileNav ul a {
         line-height: 50px;
