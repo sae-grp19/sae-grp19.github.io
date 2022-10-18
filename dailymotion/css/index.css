@@ -248,6 +248,9 @@ main a {
     color: #f8f8f8;
     text-decoration: none;
 }
+#footer h3 a:hover {
+    text-decoration: underline;
+}
 #footer .legal-data a {
     font-size: inherit;
     line-height: inherit;
@@ -257,6 +260,6 @@ main a {
     color: #f8f8f8;
     text-decoration: none;
 }
-#footer .legal-data a {
+#footer .legal-data a:hover {
     text-decoration: underline;
 }
