@@ -199,7 +199,7 @@ main {
 footer {
 	width: 100%;
 	min-height: 400px;
-	background: #464646;
+	background: #272727;
 }
 footer .all-duocloud {
 	width: 80%;
@@ -216,13 +216,13 @@ footer .all-duocloud .navsec {
 footer .all-duocloud .navsec h3 {
 	margin: 0;
     padding: 40px 0;
-    color: #E1E1E1;
+    color: #f8f8f8;
     font-weight: 500;
 }
 footer .all-duocloud .navsec a {
 	margin: 0;
     padding: 10px 0;
-    color: #E1E1E1;
+    color: #f8f8f8;
     font-size: 15px;
     text-decoration: none;
     transition: color 0.1s;
@@ -238,10 +238,10 @@ footer .legal-data {
     align-items: center;
     justify-content: center;
 	margin: auto;
-	border-top: 1px solid #E1E1E1;
+	border-top: 1px solid #f8f8f8;
 }
 footer .legal-data .data-links a {
-	color: #E1E1E1;
+	color: #f8f8f8;
 	text-decoration: none;
 }
 footer .legal-data .data-links a:hover {
