@@ -73,7 +73,7 @@ html, body {
     header #mobileNav ul a {
         line-height: 50px;
         text-decoration: none;
-        color: #fff;
+        color: #f8f8f8;
         width: 100%;
         height: 100%;
         border-radius: 30px;
@@ -133,7 +133,7 @@ html, body {
         white-space: nowrap;
     }
     header #nav ul li a {
-        color: #fff;
+        color: #f8f8f8;
         text-decoration: none;
     }
     footer .all-duocloud .navsec {
@@ -149,7 +149,7 @@ header span {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #fff;
+    color: #f8f8f8;
     font-size: 20px;
 }
 header .navigationOnPage {
@@ -164,7 +164,7 @@ header .navigationOnPage {
 header .navigationOnPage a {
     font-size: 25px;
     margin: 5px 0;
-    color: #fff;
+    color: #f8f8f8;
     transition: color 0.4s;
     transition: opacity 0.4S;
 }
@@ -172,7 +172,7 @@ header .pageName {
     height: 200px;
     margin: 100px auto 20px auto;
     width: 90%;
-    background-color: #fff;
+    background-color: #f8f8f8;
     background-position: center;
     background-size: cover;
     border-radius: 30px;
@@ -188,7 +188,7 @@ header .pageName .container {
 }
 header .pageName .container h1 {
     font-size: 70px;
-    color: white;
+    color: #f8f8f8;
 }
 main {
     width: 90%;
@@ -229,7 +229,7 @@ footer .all-duocloud .navsec a {
 }
 footer .all-duocloud .navsec a:hover {
 	text-decoration: underline;
-	color: #3f87a6;
+	color: #5fa8d3;
 }
 footer .legal-data {
 	width: 80%;
