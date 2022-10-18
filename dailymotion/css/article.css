@@ -193,7 +193,7 @@ header .pageName .container h1 {
 main {
     width: 90%;
     margin: auto;
-    min-height: calc(100vh - 720px);
+    min-height: calc(100vh - 620px);
 }
 /*Footer*/
 footer {
