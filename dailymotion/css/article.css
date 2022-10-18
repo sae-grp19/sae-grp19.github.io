@@ -172,6 +172,7 @@ header .pageName {
     height: 200px;
     margin: 100px auto 20px auto;
     width: 90%;
+    background-color: #fff;
     background-position: center;
     background-size: cover;
     border-radius: 30px;
