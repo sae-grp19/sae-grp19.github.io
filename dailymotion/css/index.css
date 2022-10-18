@@ -236,7 +236,7 @@ main a {
     background-image: url('../media/services_cover.webp');
 }
 #footer {
-    background: linear-gradient(to bottom right, #212F3C, #3498DB);
+    background: linear-gradient(to bottom right, #1b4965, #5fa8d3);
 }
 #footer h3 a {
     font-size: inherit;
