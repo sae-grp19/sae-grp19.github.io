@@ -168,11 +168,32 @@ header .navigationOnPage a {
     transition: color 0.4s;
     transition: opacity 0.4S;
 }
+header .pageName {
+    height: 200px;
+    margin: 100px auto 20px auto;
+    width: 90%;
+    background-color: #3f87a6;
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
+}
+header .pageName .container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(23, 32, 42, 0.5);
+    border-radius: 30px;
+}
+header .pageName .container h1 {
+    font-size: 70px;
+    color: white;
+}
 main {
     width: 90%;
     margin: auto;
-    min-height: calc(100vh - 500px);
-    padding-top: 100px;
+    min-height: 100px;
 }
 /*Footer*/
 footer {
