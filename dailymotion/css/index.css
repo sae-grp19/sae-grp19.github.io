@@ -76,7 +76,7 @@ html::-webkit-scrollbar { width: 0 !important }
     header #mobileNav ul a {
         line-height: 50px;
         text-decoration: none;
-        color: #fff;
+        color: #f8f8f8;
         width: 100%;
         height: 100%;
         border-radius: 30px;
@@ -144,7 +144,7 @@ html::-webkit-scrollbar { width: 0 !important }
         white-space: nowrap;
     }
     header #nav ul li a {
-        color: #fff;
+        color: #f8f8f8;
         text-decoration: none;
     }
     main h2 {
@@ -173,7 +173,7 @@ header span {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #fff;
+    color: #f8f8f8;
     font-size: 20px;
 }
 header .navigationOnPage {
@@ -188,7 +188,7 @@ header .navigationOnPage {
 header .navigationOnPage a {
     font-size: 25px;
     margin: 5px 0;
-    color: #fff;
+    color: #f8f8f8;
     transition: color 0.4s;
     transition: opacity 0.4S;
 }
@@ -205,7 +205,7 @@ main section {
 main section .container {
     width: 100%;
     background-color: rgba(23, 32, 42, 0.5);
-    color: #fff;
+    color: #f8f8f8;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -216,8 +216,8 @@ main a {
     line-height: 20px;
     padding: 10px 50px;
     border-radius: 30px;
-    background-color: white;
-    color: #000;
+    background-color: #f8f8f8;
+    color: #272727;
     text-decoration: none;
 }
 #dailymotion {
@@ -244,7 +244,7 @@ main a {
     padding: inherit;
     border-radius: inherit;
     background-color: inherit;
-    color: #fff;
+    color: #f8f8f8;
     text-decoration: none;
 }
 #footer .legal-data a {
@@ -253,7 +253,7 @@ main a {
     padding: inherit;
     border-radius: inherit;
     background-color: inherit;
-    color: #fff;
+    color: #f8f8f8;
     text-decoration: none;
 }
 #footer .legal-data a {
