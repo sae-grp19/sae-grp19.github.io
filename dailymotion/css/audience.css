@@ -1,1 +1,14 @@
-/*Seuls les enfants de la balise main sont autorisés à être modifiés ici !*/
+.element {
+    margin: 0 30px;
+}
+.element img {
+    border-radius: 30px;
+    
+}
+#conteneur
+{
+    display: flex;
+    color: #000000;
+    align-items: center;
+    text-align: justify;
+}
