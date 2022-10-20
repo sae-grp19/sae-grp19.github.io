@@ -51,6 +51,7 @@
 }
 .progressHistory .evenement .media img {
     display: block;
+    border-radius:30px;
     width: 40%;
     height: auto;
     padding: 20px 40px;
