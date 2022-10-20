@@ -40,44 +40,35 @@
     width: 100%;
     height: auto;
     min-height: 200px;
-    position: relative;
+    display: flex;
+    align-items: center;
 }
 .progressHistory .evenement .media {
     width: 50%;
-    height: 100%;
-    position: absolute;
     display: flex;
-    align-items: center;
     justify-content: center;
-    margin-right: 50%;
 }
 .progressHistory .evenement .media img {
     display: block;
-    border-radius:30px;
     width: 40%;
     height: auto;
     padding: 20px 40px;
+    background-color: rgba(106, 106, 106, 0.289);
 }
-.progressHistory .evenement .texte {
-    width: 50%;
-    height: 100%;
-    position: absolute;
-    margin-left: 50%;
+.progressHistory .evenement .text {
+    width: calc(25% - 5px);
+    padding-right: 5px;
 }
-.progressHistory .evenement .texte .title {
-    width: calc(50% - 5px);
-    height: 100%;
-    float: right;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.progressHistory .evenement .texte .paragraphe {
-    width: calc(45% - 5px);
-    height: 100%;
-    float: left;
+.progressHistory .evenement .text p {
+    width: 80%;
+    margin: auto;
     text-align: justify;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    padding: 20px 0;
+}
+.progressHistory .evenement .title {
+    width: calc(25% - 5px);
+    padding-left: 5px;
+}
+.progressHistory .evenement .title h3 {
+    text-align: center;
 }
