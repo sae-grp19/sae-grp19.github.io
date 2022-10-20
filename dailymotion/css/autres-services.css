@@ -38,6 +38,7 @@ main.autres_services > .first_part > section:nth-child(even) > img {
 main.autres_services > .first_part > section > img {
     height: 240px;
     border-radius: 30px;
+    box-shadow: 0px 35px 50px rgba( 0, 0, 0, 0.2 );
 }
 
 /* Mise en page de la timeline (frise chronologique) */
