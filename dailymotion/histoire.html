@@ -133,7 +133,7 @@
     window.addEventListener('scroll', () => {
         const years = document.getElementsByClassName("year");
         for (let i = 0; i < years.length; i++) {
-            if ((years[i].getBoundingClientRect().top + 40) < (window.innerHeight / )) {
+            if ((years[i].getBoundingClientRect().top + 40) < (window.innerHeight / 2)) {
                 years[i].style.backgroundColor = '#5fa8d3';
                 years[i].style.color = '#f8f8f8';
             } else {
