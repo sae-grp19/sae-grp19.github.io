@@ -129,20 +129,20 @@
                 </div>
             </div>
         </div>
-            <script>
-        window.addEventListener('scroll', () => {
-            const years = document.getElementsByClassName("year");
-            for (let i = 0; i < years.length; i++) {
-                if ((years[i].getBoundingClientRect().top + 40) < (window.innerHeight / )) {
-                    years[i].style.backgroundColor = '#5fa8d3';
-                    years[i].style.color = '#f8f8f8';
-                } else {
-                    years[i].style.backgroundColor = '#f8f8f8';
-                    years[i].style.color = '#5fa8d3';
-                    }
-                }
-            });
-        </script>
+           <script>
+    window.addEventListener('scroll', () => {
+        const years = document.getElementsByClassName("year");
+        for (let i = 0; i < years.length; i++) {
+            if ((years[i].getBoundingClientRect().top + 40) < (window.innerHeight / )) {
+                years[i].style.backgroundColor = '#5fa8d3';
+                years[i].style.color = '#f8f8f8';
+            } else {
+                years[i].style.backgroundColor = '#f8f8f8';
+                years[i].style.color = '#5fa8d3';
+            }
+        }
+    });
+</script>
     </main>
     <footer>
         <div class="all-duocloud">
