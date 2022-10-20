@@ -1,74 +1,141 @@
 /*Seuls les enfants de la balise main sont autorisés à être modifiés ici !*/
-.progressHistory {
-    height: auto;
-    width: 100%;
-    position: relative;
-    z-index: 1000;
-    margin: 20px 0;
+@media only screen and (max-width : 1080px) {
+    .progressHistory {
+        height: auto;
+        width: 100%;
+        position: relative;
+        z-index: 1000;
+        margin: 20px 0;
+    }
+    .progressHistory .gradientProgress {
+        height: 100%;
+        width: 10px;
+        background-color: #D7DBDD;
+        position: absolute;
+        margin-left: calc(50%  - 5px);
+        z-index: 500;
+    }
+    .progressHistory .years {
+        width: 100%;
+        z-index: 1000;
+        position: relative;
+    }
+    .progressHistory .year {
+        width: 100%;
+        height: 80px;
+        border-radius: 30px;
+        background-color: #f8f8f8;
+        color: #5fa8d3;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: color 0.4s;
+        transition: background 0.4s;
+    }
+    .progressHistory .year h2 {
+        font-size: 40px;
+        margin: 0;
+    }
+    .progressHistory .evenement {
+        width: 100%;
+        height: auto;
+        min-height: 200px;
+        display: flex;
+        flex-direction: column;
+    }
+    .progressHistory .evenement .media {
+        display: none;
+    }
+    .progressHistory .evenement .text {
+        width: 100%;
+        order: 2;
+    }
+    .progressHistory .evenement .text p {
+        width: 80%;
+        margin: auto;
+        text-align: justify;
+        padding: 20px 0;
+    }
+    .progressHistory .evenement .title {
+        width: 100%;
+        order: 1;
+    }
+    .progressHistory .evenement .title h3 {
+        text-align: center;
+    }
 }
-.progressHistory .gradientProgress {
-    height: 100%;
-    width: 10px;
-    background-color: #D7DBDD;
-    position: absolute;
-    margin-left: calc(75%  - 5px);
-    z-index: 500;
-}
-.progressHistory .years {
-    width: 100%;
-    z-index: 1000;
-    position: relative;
-}
-.progressHistory .year {
-    width: 50%;
-    margin-left: 50%;
-    height: 80px;
-    border-radius: 30px;
-    background-color: #f8f8f8;
-    color: #5fa8d3;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: color 0.4s;
-    transition: background 0.4s;
-}
-.progressHistory .year h2 {
-    font-size: 40px;
-    margin: 0;
-}
-.progressHistory .evenement {
-    width: 100%;
-    height: auto;
-    min-height: 200px;
-    display: flex;
-    align-items: center;
-}
-.progressHistory .evenement .media {
-    width: 50%;
-    display: flex;
-    justify-content: center;
-}
-.progressHistory .evenement .media img {
-    display: block;
-    width: 40%;
-    height: auto;
-    padding: 20px 40px;
-    background-color: rgba(106, 106, 106, 0.289);
-}
-.progressHistory .evenement .text {
-    width: calc(25% - 5px);
-    padding-right: 5px;
-}
-.progressHistory .evenement .text p {
-    width: 80%;
-    margin: auto;
-    text-align: justify;
-    padding: 20px 0;
-}
-.progressHistory .evenement .title {
-    width: calc(25% - 5px);
-    padding-left: 5px;
-}
-.progressHistory .evenement .title h3 {
-    text-align: center;
+@media only screen and (min-width : 1080px) {
+    .progressHistory {
+        height: auto;
+        width: 100%;
+        position: relative;
+        z-index: 1000;
+        margin: 20px 0;
+    }
+    .progressHistory .gradientProgress {
+        height: 100%;
+        width: 10px;
+        background-color: #D7DBDD;
+        position: absolute;
+        margin-left: calc(75%  - 5px);
+        z-index: 500;
+    }
+    .progressHistory .years {
+        width: 100%;
+        z-index: 1000;
+        position: relative;
+    }
+    .progressHistory .year {
+        width: 50%;
+        margin-left: 50%;
+        height: 80px;
+        border-radius: 30px;
+        background-color: #f8f8f8;
+        color: #5fa8d3;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: color 0.4s;
+        transition: background 0.4s;
+    }
+    .progressHistory .year h2 {
+        font-size: 40px;
+        margin: 0;
+    }
+    .progressHistory .evenement {
+        width: 100%;
+        height: auto;
+        min-height: 200px;
+        display: flex;
+        align-items: center;
+    }
+    .progressHistory .evenement .media {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+    }
+    .progressHistory .evenement .media img {
+        display: block;
+        width: 40%;
+        height: auto;
+        padding: 20px 40px;
+        background-color: rgba(106, 106, 106, 0.289);
+    }
+    .progressHistory .evenement .text {
+        width: calc(25% - 5px);
+        padding-right: 5px;
+    }
+    .progressHistory .evenement .text p {
+        width: 80%;
+        margin: auto;
+        text-align: justify;
+        padding: 20px 0;
+    }
+    .progressHistory .evenement .title {
+        width: calc(25% - 5px);
+        padding-left: 5px;
+    }
+    .progressHistory .evenement .title h3 {
+        text-align: center;
+    }
 }
