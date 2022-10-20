@@ -1,6 +1,6 @@
 # SAÉ 05-06 Groupe 19 (D1)
 
-### **Lien pour accéder au site:**
+## **Lien pour accéder au site:**
 https://sae-grp19.github.io/dailymotion/
 
 ## **Membres du groupe :**
