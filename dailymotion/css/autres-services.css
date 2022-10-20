@@ -1,1 +1,173 @@
 /*Seuls les enfants de la balise main sont autorisés à être modifiés ici !*/
+
+/* Mise en page des sections avec paragraphes et images */
+
+main.autres_services > .first_part {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main.autres_services p {
+    line-height: 1.5;
+}
+
+main.autres_services > .first_part > section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+/* 1 élément sur 2 sera en row-reverse pour alterner entre les paragraphes et les images */
+
+main.autres_services > .first_part > section:nth-child(odd) {
+    flex-direction: row-reverse;
+}
+
+main.autres_services > .first_part > section:nth-child(odd) > img {
+    margin-right: 2rem;
+}
+
+main.autres_services > .first_part > section:nth-child(even) > img {
+    margin-left: 2rem;
+}
+
+main.autres_services > .first_part > section > img {
+    height: 240px;
+    border-radius: 30px;
+}
+
+/* Mise en page de la timeline (frise chronologique) */
+
+.time-line-box {
+    height: 100px; 
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+    width: 100%;
+    background-color: #f8f8f8;
+  }
+  
+  .time-line-box .timeline {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .time-line-box .timestamp {
+    margin: auto;
+    margin-bottom: 5px;
+    padding: 0px 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .time-line-box .status {
+    padding: 0px 10px;
+    display: flex;
+    justify-content: center;
+    border-top: 5px solid #1B4965;
+    position: relative;
+    transition: all 200ms ease-in;
+  }
+  .time-line-box .status span {
+    padding-top: 8px;
+  }
+  .time-line-box .status span:before {
+    content: '';
+    width: 12px;
+    height: 12px;
+    background-color: #1B4965;
+    border-radius: 12px;
+    border: 2px solid #1B4965;
+    position: absolute;
+    left: 50%;
+    top: -5%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    transition: all 200ms ease-in;
+  }
+  
+
+  .swiper-wrapper{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 16px;
+    width: 200px;
+    height: 100%;
+    position: relative;
+  }
+
+  main.autres_services > aside > h2 {
+    text-align: center;
+    margin-top: 2rem;
+  }
+
+  main.autres_services aside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  div.time-line-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+/* Partie responsive */
+
+@media only screen 
+and (max-width : 768px) {
+
+ main.autres_services > .first_part > section {
+     flex-direction: column;
+ }
+
+ main.autres_services > .first_part > section:nth-child(odd) {
+     flex-direction: column;
+ }
+
+ main.autres_services > .first_part > section:nth-child(odd) > img {
+     margin-right: 0;
+ }
+ 
+ main.autres_services > .first_part > section:nth-child(even) > img {
+     margin-left: 0;
+ }
+}
+
+@media only screen 
+and (max-width : 420px) {
+ main.autres_services > .first_part > section.banner_article {
+     height: 100vh;
+     display: flex;
+     text-align: center;
+     justify-content: center;
+     align-items: center;
+ }
+}
+
+/* Disparition de la timeline à partir d'en dessous de 1080px car ne s'affiche pas de manière responsive */
+
+@media only screen 
+and (max-width : 1080px) {
+ main.autres_services aside {
+     display: none;
+ }
+}
