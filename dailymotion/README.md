@@ -30,4 +30,10 @@ toinot.gury@edu.univ-fcomte.fr
 ### page autres_services par Elmir GEROVIC
 ![autres_services_validator_html](https://user-images.githubusercontent.com/113291884/196878185-542c65a2-04d4-4d4a-8a8f-180c45f481db.png)
 
-### pages 
+### pages d'acceuil par Toinot Gury
+![Capture](https://user-images.githubusercontent.com/113291884/196878890-167f4441-abcd-41f0-b640-e91a91d09eb3.png)
+
+### pages d'acceuil par Thomas Jeandenant
+
+
+### pages d'acceuil par Thomas Jeandenant
