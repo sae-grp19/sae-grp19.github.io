@@ -57,71 +57,49 @@
         </div>
     </header>
     <main>
-      <div class="progressHistory">
+        <div class="progressHistory">
             <div class="gradientProgress"></div>
             <div class="years">
                 <div class="year">
-                    <h2>2005</h2>
+                    <h2>2000</h2>
                 </div>
                 <div class="evenement">
                     <div class="media">
                         <img src="media/logo_dailymotion.webp" alt="Image">
                     </div>
-                    <div class="texte">
-                        <div class="paragraphe">
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi laudantium corporis eligendi odio, vitae maiores sequi dignissimos repellat sit quasi quis tenetur earum. Provident minima voluptas est magni eligendi molestiae.</p>
-                        </div>
-                        <div class="title">
-                            <h3>Création</h3>
-                        </div>
+                    <div class="text">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi laudantium corporis eligendi odio, vitae maiores sequi dignissimos repellat sit quasi quis tenetur earum. Provident minima voluptas est magni eligendi molestiae.</p>
+                    </div>
+                    <div class="title">
+                        <h3>Titre 1</h3>
                     </div>
                 </div>
                 <div class="year">
-                    <h2>2009</h2>
+                    <h2>2001</h2>
                 </div>
                 <div class="evenement">
                     <div class="media">
-                        <img src="media/télé.webp" alt="Image">
+                        <img src="media/logo_dailymotion.webp" alt="Image">
                     </div>
-                    <div class="texte">
-                        <div class="paragraphe">
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi laudantium corporis eligendi odio, vitae maiores sequi dignissimos repellat sit quasi quis tenetur earum. Provident minima voluptas est magni eligendi molestiae.</p>
-                        </div>
-                        <div class="title">
-                            <h3>Disponible sur téléviseur</h3>
-                        </div>
+                    <div class="text">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi laudantium corporis eligendi odio, vitae maiores sequi dignissimos repellat sit quasi quis tenetur earum. Provident minima voluptas est magni eligendi molestiae.</p>
+                    </div>
+                    <div class="title">
+                        <h3>Titre 2</h3>
                     </div>
                 </div>
                 <div class="year">
-                    <h2>2013</h2>
+                    <h2>2002</h2>
                 </div>
                 <div class="evenement">
                     <div class="media">
-                        <img src="media/orange.webp" alt="Image" style="height:270px;">
+                        <img src="media/logo_dailymotion.webp" alt="Image">
                     </div>
-                    <div class="texte">
-                        <div class="paragraphe">
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi laudantium corporis eligendi odio, vitae maiores sequi dignissimos repellat sit quasi quis tenetur earum. Provident minima voluptas est magni eligendi molestiae.</p>
-                        </div>
-                        <div class="title">
-                            <h3>Rachat par Orange</h3>
-                        </div>
+                    <div class="text">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi laudantium corporis eligendi odio, vitae maiores sequi dignissimos repellat sit quasi quis tenetur earum. Provident minima voluptas est magni eligendi molestiae.</p>
                     </div>
-                </div>
-                <div class="year">
-                    <h2>2017</h2>
-                </div>
-                <div class="evenement">
-                    <div class="media">
-                        <img src="media/d.webp" alt="Image" style="height:270px;">
-                    </div>
-                    <div class="texte">
-                        <div class="paragraphe">
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi laudantium corporis eligendi odio, vitae maiores sequi dignissimos repellat sit quasi quis tenetur earum. Provident minima voluptas est magni eligendi molestiae.</p>
-                        </div>
-                        <div class="title">
-                            <h3>Vivendi</h3>
-                        </div>
+                    <div class="title">
+                        <h3>Titre 3</h3>
                     </div>
                 </div>
                 <div class="year">
@@ -129,20 +107,20 @@
                 </div>
             </div>
         </div>
-           <script>
-    window.addEventListener('scroll', () => {
-        const years = document.getElementsByClassName("year");
-        for (let i = 0; i < years.length; i++) {
-            if ((years[i].getBoundingClientRect().top + 40) < (window.innerHeight / 2)) {
-                years[i].style.backgroundColor = '#5fa8d3';
-                years[i].style.color = '#f8f8f8';
-            } else {
-                years[i].style.backgroundColor = '#f8f8f8';
-                years[i].style.color = '#5fa8d3';
-            }
-        }
-    });
-</script>
+        <script>
+            window.addEventListener('scroll', () => {
+                const years = document.getElementsByClassName("year");
+                for (let i = 0; i < years.length; i++) {
+                    if ((years[i].getBoundingClientRect().top + 40) < (window.innerHeight / 2)) {
+                        years[i].style.backgroundColor = '#5fa8d3';
+                        years[i].style.color = '#f8f8f8';
+                    } else {
+                        years[i].style.backgroundColor = '#f8f8f8';
+                        years[i].style.color = '#5fa8d3';
+                    }
+                }
+            });
+        </script>
     </main>
     <footer>
         <div class="all-duocloud">
