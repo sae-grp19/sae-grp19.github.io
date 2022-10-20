@@ -28,3 +28,5 @@ toinot.gury@edu.univ-fcomte.fr
 
 ### Lien pour télécharger le rapport économique :
 [Gury_Toinot_Dailymotion_S1.pdf](https://github.com/sae-grp19/sae-grp19.github.io/files/9827566/Gury_Toinot_Dailymotion_S1.pdf)
+
+[Planning_GANTT_Groupe_20_SAE_Dailymotion.pdf](https://github.com/sae-grp19/sae-grp19.github.io/files/9827775/Planning_GANTT_Groupe_20_SAE_Dailymotion.pdf)
