@@ -1,4 +1,8 @@
 # SAÉ 05-06 Groupe 19 (D1)
+
+### Lien pour accéder au site:
+https://sae-grp19.github.io/dailymotion/
+
 ## **Membres du groupe :**
 - Toinot GURY :star:
 - Thomas JEANDENANT
@@ -22,5 +26,5 @@ toinot.gury@edu.univ-fcomte.fr
 ### Page d'accueil:
 ![Screenshot 2022-10-07 at 09-41-03 Focus on DailyMotion](https://user-images.githubusercontent.com/113291884/194500152-bfecf9e8-7de2-4bb1-aeb4-c5de4e417453.png)
 
-### Lien pour télécharger le rapport économique
+### Lien pour télécharger le rapport économique :
 [Gury_Toinot_Dailymotion_S1.pdf](https://github.com/sae-grp19/sae-grp19.github.io/files/9827566/Gury_Toinot_Dailymotion_S1.pdf)
