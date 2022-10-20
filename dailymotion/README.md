@@ -21,3 +21,5 @@ toinot.gury@edu.univ-fcomte.fr
 
 ### Page d'accueil:
 ![Screenshot 2022-10-07 at 09-41-03 Focus on DailyMotion](https://user-images.githubusercontent.com/113291884/194500152-bfecf9e8-7de2-4bb1-aeb4-c5de4e417453.png)
+
+[Gury_Toinot_Dailymotion_S1.pdf](https://github.com/sae-grp19/sae-grp19.github.io/files/9827566/Gury_Toinot_Dailymotion_S1.pdf)
