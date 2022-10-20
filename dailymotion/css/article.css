@@ -82,6 +82,7 @@ html, body {
     header .pageName .container h1 {
         font-size: 40px;
         color: #f8f8f8;
+        text-align: center;
     }
     footer .all-duocloud {
         flex-direction: column;
