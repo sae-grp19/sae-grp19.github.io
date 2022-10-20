@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/article.css">
+    <link rel="stylesheet" href="css/imprint.css">
+    <link rel="shortcut icon" href="media/favicon.ico" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/279a7b8cf7.js" crossorigin="anonymous"></script>
+    <title>Mentions légales - About DailyMotion</title>
+</head>
+<body>
+    <header>
+        <nav id="nav">
+            <img src="media/oldlogo_dailymotion.webp" alt="Ancien logo de DailyMotion">
+            <ul>
+                <li><a href="/dailymotion/">Accueil</a></li>
+                <li><a href="histoire">L'histoire</a></li>
+                <li><a href="audience">L'audience</a></li>
+                <li><a href="createurs">Les créateurs</a></li>
+                <li><a href="autres-services">Les autres services</a></li>
+            </ul>
+            <span>
+            </span>
+        </nav>
+        <nav id="mobileNav">
+            <span>
+                <img src="media/oldlogo_dailymotion.webp" alt="Ancien logo de DailyMotion">
+                <i id="angle" class="fa-solid fa-angle-down"></i>
+            </span>
+            <ul>
+                <li style="margin-top: 5px;"><a href="/dailymotion/">Accueil</a></li>
+                <li><a href="histoire">L'histoire</a></li>
+                <li><a href="audience">L'audience</a></li>
+                <li><a href="createurs">Les créateurs</a></li>
+                <li><a href="createurs">Les autres services</a></li>
+            </ul>
+        </nav>
+        <script>
+            var etat = false;
+            document.getElementById('mobileNav').addEventListener('click', (event) => {
+                if (etat == false) {
+                    etat = true;
+                    document.getElementById('mobileNav').style.height = '360px';
+                    document.getElementById('angle').style.transform = 'rotate(-180deg)';
+                } else {
+                    etat = false;
+                    document.getElementById('mobileNav').style.height = '60px';
+                    document.getElementById('angle').style.transform = 'rotate(-0deg)';
+                }
+            });
+        </script>
+        <div class="pageName" style="background-image: url(media/imprint_cover.webp);">
+            <div class="container">
+                <h1>Mentions légales</h1>
+            </div>
+        </div>
+    </header>
+    <main>
+        <h2>Ce site à été créé et publié par</h2>
+        <span>Toinot GURY | Thomas JEANDENANT | Elmir GEROVIC | Thomas BOUVAIS | Noam JOLY-GIRODS</span>
+        <h2>Nos coordonnées</h2>
+        <span>IUT Belfort - Montbéliard</span>
+        <span style="margin-bottom: 10px;">19 Av. du Maréchal Juin, 90016 Belfort</span>
+        <span><a href="mailto:toinot.gury@edu.univ-fcomte.fr">toinot.gury@edu.univ-fcomte.fr</a></span>
+        <h2>Hébergement</h2>
+        <span><a href="https://www.github.com">GitHub, Inc.</a></span>
+        <span>88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, USA</span>
+        <span style="margin-bottom: 20px;">+1-877-448-4820</span>
+    </main>
+    <footer>
+        <div class="all-duocloud">
+            <div class="navsec">
+                <h3>Découvrir</h3>
+                <a href="https://dailymotion.com">Dailymotion</a>
+                <a href="https://about.dailymotion.com">Dailymotion About</a>
+                <a href="https://www.societe.com/societe/dailymotion-483487112.html">Informations administratives</a>
+            </div>	
+            <div class="navsec">
+                <h3>Suivre Dailymotion</h3>
+                <a href="https://twitter.com/Dailymotion_FR">Twitter</a>
+                <a href="https://www.facebook.com/DailymotionFrance">Facebook</a>
+                <a href="https://www.instagram.com/dailymotion">Instagram</a>
+                <a href="https://www.linkedin.com/company/dailymotion">Linkedin</a>
+                <a href="https://medium.com/dailymotion">Medium</a>
+            </div>
+            <div class="navsec">
+                <h3>Les articles</h3>
+                <a href="histoire">L'histoire</a>
+                <a href="audience">L'audience</a>
+                <a href="createurs">Les créateurs</a>
+                <a href="autres-services">Les autres services</a>
+            </div>		
+        </div>
+        <div class="legal-data">
+            <div class="data-links"><a href="https://github.com/Toinot" target="_blank">Page créée par Toinot GURY</a></div>
+            <div class="data-links"><a href="https://github.com/sae-grp19/sae-grp19.github.io" target="_blank">GitHub</a></div>
+            <div class="data-links"><a href="https://sae-grp19.github.io/dailymotion/doc/Gury_Toinot_Dailymotion_S1.pdf" target="_blank">Rapport économique</a></div>
+            <div class="data-links"><a href="imprint">Mentions légales</a></div>
+        </div>
+    </footer>
+</body>
+</html>
