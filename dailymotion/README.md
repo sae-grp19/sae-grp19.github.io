@@ -24,9 +24,10 @@ toinot.gury@edu.univ-fcomte.fr
 
 ## Vérification W3C de toutes les pages:
 
-# page créateurs par Noam JOLY-GIRODS
+### page créateurs par Noam JOLY-GIRODS
 ![Créateur_W3C_html](https://user-images.githubusercontent.com/113291884/196877967-5518e299-c33d-4f33-a148-800a5eaeb71e.PNG)
 
-# page autres_services par Elmir GEROVIC
+### page autres_services par Elmir GEROVIC
 ![autres_services_validator_html](https://user-images.githubusercontent.com/113291884/196878185-542c65a2-04d4-4d4a-8a8f-180c45f481db.png)
 
+### pages 
