@@ -155,12 +155,11 @@ and (max-width : 768px) {
 
 @media only screen 
 and (max-width : 420px) {
- main.autres_services > .first_part > section.banner_article {
-     height: 100vh;
-     display: flex;
-     text-align: center;
-     justify-content: center;
-     align-items: center;
+ main.autres_services {
+     width: 90%;
+ }
+ main.autres_services > div.first_part > section > img {
+    height: 180px;
  }
 }
 
